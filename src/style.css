@@ -115,3 +115,68 @@ h3 {
   margin-top: -95px;
   text-align: left;
 }
+
+.app-link {
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 150px;
+  }
+  h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .app-title {
+    font-size: 35px;
+    text-align: center;
+  }
+  .index-img {
+    display: none;
+  }
+
+  .about-paragraph {
+    font-size: 20px;
+    text-align: center;
+  }
+  .contact-me-h2 {
+    font-size: 20px;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+
+  .navigation-links {
+    margin-bottom: -40px;
+  }
+
+  .app-link {
+    display: block;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    background: var(--primary-color);
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 50px;
+    text-decoration: none;
+  }
+  .home-para {
+    text-align: center;
+  }
+}
